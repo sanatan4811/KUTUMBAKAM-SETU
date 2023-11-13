@@ -1,0 +1,22 @@
+.component1-container {
+  width: 1599px;
+  height: 548px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component1-container1 {
+  width: 372px;
+  height: 179px;
+}
+.component1-container2 {
+  display: contents;
+}
+@media(max-width: 479px) {
+  .component1-container1 {
+    width: 362px;
+    height: 124px;
+  }
+}

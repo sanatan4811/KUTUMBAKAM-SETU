@@ -1,0 +1,49 @@
+.importance-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.importance-navlink {
+  display: contents;
+}
+.importance-icon {
+  top: 29px;
+  right: 43px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  text-decoration: none;
+}
+.importance-iframe {
+  width: 1191px;
+  height: 662px;
+}
+.importance-text {
+  color: #ec1414;
+}
+@media(max-width: 1200px) {
+  .importance-iframe {
+    width: 1155px;
+    height: 640px;
+  }
+}
+@media(max-width: 767px) {
+  .importance-iframe {
+    width: 766px;
+    height: 504px;
+  }
+}
+@media(max-width: 479px) {
+  .importance-icon {
+    top: 54px;
+    right: 18px;
+  }
+  .importance-iframe {
+    width: 468px;
+    height: 721px;
+  }
+}

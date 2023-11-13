@@ -1,0 +1,104 @@
+.sanskit-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+.sanskit-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 1051px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.sanskit-container2 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1051px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://images.unsplash.com/photo-1577083753695-e010191bacb5?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQyfHxpbmRpYXxlbnwwfHx8fDE2OTk4NjA4Mzh8MA&ixlib=rb-4.0.3&w=1500');
+  background-position: center;
+}
+.sanskit-text1 {
+  top: 51px;
+  left: 119px;
+  position: absolute;
+}
+.sanskit-text2 {
+  top: 53px;
+  left: 22px;
+  color: #1dde67;
+  position: absolute;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+.sanskit-text3 {
+  top: 141px;
+  left: 622px;
+  color: rgb(196, 206, 8);
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+}
+.sanskit-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sanskit-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sanskit-text4 {
+  color: rgb(29, 181, 137);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.sanskit-text5 {
+  color: #12bf1b;
+  right: -334px;
+  bottom: -378px;
+  position: absolute;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 767px) {
+  .sanskit-text3 {
+    left: 0px;
+    bottom: 507px;
+    position: absolute;
+  }
+}
+@media(max-width: 479px) {
+  .sanskit-text2 {
+    top: 28px;
+    left: -1px;
+    position: absolute;
+  }
+  .sanskit-text3 {
+    left: 0px;
+    bottom: 489px;
+    position: absolute;
+  }
+}

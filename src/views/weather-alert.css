@@ -1,0 +1,97 @@
+.weather-alert-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.weather-alert-container1 {
+  top: 52px;
+  left: 501px;
+  position: absolute;
+}
+.weather-alert-container2 {
+  display: contents;
+}
+.weather-alert-text {
+  top: 587px;
+  left: 27px;
+  color: #11e41c;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.weather-alert-text1 {
+  top: 719px;
+  left: 48px;
+  position: absolute;
+}
+.weather-alert-text2 {
+  color: #ec1010;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+}
+.weather-alert-text4 {
+  top: 0px;
+  left: 424px;
+  position: absolute;
+}
+.weather-alert-navlink {
+  display: contents;
+}
+.weather-alert-icon {
+  top: 36px;
+  right: 80px;
+  width: 24px;
+  height: var(--dl-size-size-medium);
+  position: absolute;
+  text-decoration: none;
+}
+.weather-alert-text6 {
+  color: #dc4009;
+  font-size: 22px;
+  font-weight: 800;
+}
+.weather-alert-text7 {
+  color: #dc4009;
+  font-size: 22px;
+  font-weight: 800;
+}
+.weather-alert-link {
+  top: 171px;
+  left: 1084px;
+  position: absolute;
+  text-decoration: none;
+  background-color: #e6ef27;
+}
+@media(max-width: 991px) {
+  .weather-alert-container1 {
+    top: 175px;
+    left: 74px;
+  }
+}
+@media(max-width: 767px) {
+  .weather-alert-container1 {
+    top: 171px;
+    left: 23px;
+  }
+  .weather-alert-text4 {
+    top: 9px;
+    left: 32px;
+    padding-bottom: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .weather-alert-container1 {
+    top: 171px;
+    left: 7px;
+  }
+  .weather-alert-text {
+    top: 614px;
+    right: 0px;
+  }
+}

@@ -1,0 +1,36 @@
+.component3-container {
+  display: flex;
+  position: relative;
+}
+.component3-container1 {
+  width: 399px;
+  height: 378px;
+}
+.component3-container2 {
+  display: contents;
+}
+@media(max-width: 1200px) {
+  .component3-container1 {
+    width: 433px;
+    height: 228px;
+  }
+}
+@media(max-width: 991px) {
+  .component3-container1 {
+    height: 361px;
+  }
+}
+@media(max-width: 767px) {
+  .component3-container1 {
+    width: 451px;
+    height: 449px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .component3-container1 {
+    width: 388px;
+    height: 341px;
+    padding-right: 0px;
+  }
+}
